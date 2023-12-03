@@ -3,7 +3,7 @@ use std::io;
 fn main(){
 
     let mut elligible_count = 0;
-    while elligible_count < 150 {
+    while elligible_count >= 150 {
 
     println!("Welcome to the Student Council Voter System (SCVO)");
 

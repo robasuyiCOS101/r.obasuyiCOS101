@@ -63,7 +63,7 @@ fn main()
  } else if _age == 30  &&_number_of_siblings > 4{}
  {
     let total = _village_b - (5 / 100 * 55000);
- }else if _age > 40 &&_number_of_children > 3;
+ }else if _age > 40 && _number_of_children > 3;
  {
     let total = _village_c - (15 / 100 8 1500000);
  }
