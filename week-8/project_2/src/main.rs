@@ -1,8 +1,8 @@
 fn main (){
     let mut name : Vec<String> = Vec::new();
-    println!("The name vector has element {}",name.len());
     let mut experience: Vec<String> = Vec::new();
-    println!("The experience vector has element {}",experience.len());
+    
+
 
     
     println!("How many people are being interviewed?");
@@ -13,21 +13,24 @@ fn main (){
     {
 
         
-        let mut name = String::new();
-        println!("Your name {}", count+1);
-        std::io::stdin().read_line(&mut name).expect("Failed to read input");
-        let new_name:String = name.trim().parse().expect("Invalid input");
+        let mut input1 = String::new();
+        println!("Candidate Name {} ", count+1);
+        std::io::stdin().read_line(&mut input1).expect("Failed to read input");
+        let new_name:String = input1.trim().parse().expect("Invalid input");
         name.push(new_name);
+        
+        
 
         
-        let mut experience = String::new();
-        println!("Years of experience {}",count+1 );
-        std::io::stdin().read_line(&mut experience).expect("Failed to read input ");
-        let new_experience:usize= experience.trim().parse().expect("Failed to read input");
+        let mut input2 = String::new();
+        println!("Years of experience for candidate in years {}",count+1 );
+        std::io::stdin().read_line(&mut input2).expect("Failed to read input ");
+        let new_experience:String = input2.trim().parse().expect("Failed to read input");
         experience.push(new_experience);
     
 
     }
+
 
 
 

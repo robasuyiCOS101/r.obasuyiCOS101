@@ -1,0 +1,6 @@
+				PAU SMIS FILE
+student_name		        matric_number		             department		                level
+Obasuyi Russell			swe2345678			software engineering			100		
+Ryan Tende			swe2345678			software engineering			100		
+Uzor Iheanyichukwu		swe2345678			software engineering			100
+Babalaye Hammed			eee3456789			software engineering                                        100			
