@@ -1,5 +1,5 @@
  
- use std::io::Write;
+use std::io::Write;
 fn main(){
 
     let mut file = std::fs::File::create("PAU_SMIS.txt").expect("create failed");
