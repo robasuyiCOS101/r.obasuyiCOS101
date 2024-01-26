@@ -1,0 +1,2 @@
+			FILE
+Company Name		Date Founded		Assets		liabilities		%leverages		5% of lev
